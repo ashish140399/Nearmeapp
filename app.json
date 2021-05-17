@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Near Me",
+    "slug": "nearmeMobApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nearmeMobApp.nearmeMobApp",
+      "buildNumber": "1.0.0"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.nearmeMobApp.nearmeMobApp",
+      "versionCode": 1
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  }
+}
